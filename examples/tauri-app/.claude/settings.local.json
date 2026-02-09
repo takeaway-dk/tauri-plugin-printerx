@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(cargo tauri android build:*)",
+      "Bash(gradlew.bat assembleDebug:*)",
+      "Bash(\"src-tauri\\\\gen\\\\android\\\\gradlew.bat\" assembleDebug --stacktrace --project-dir=\"src-tauri\\\\gen\\\\android\")",
+      "Bash(where:*)",
+      "Bash(cargo --version:*)",
+      "Bash(findstr:*)",
+      "Bash(\"src-tauri\\\\gen\\\\android\\\\gradlew.bat\" assembleDebug --project-dir=\"src-tauri\\\\gen\\\\android\")",
+      "Bash(cargo check:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}

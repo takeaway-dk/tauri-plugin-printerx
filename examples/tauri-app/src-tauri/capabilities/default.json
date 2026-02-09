@@ -1,0 +1,29 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "enables the default permissions",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "printerx:default",
+    "printerx:allow-print-esc-pos-network",
+    "printerx:allow-scan-devices",
+    "printerx:allow-get-status",
+    "printerx:allow-get-printer-status",
+    "printerx:allow-get-printer-info",
+    "printerx:allow-register-listener",
+    "printerx:allow-remove-listener",
+    "printerx:allow-print-esc-pos",
+    "printerx:allow-open-cash-drawer",
+    "printerx:allow-get-cash-drawer-status",
+    "printerx:allow-start-cash-drawer-monitor",
+    "printerx:allow-stop-cash-drawer-monitor",
+    "printerx:allow-lcd-show-text",
+    "printerx:allow-print-text",
+    "printerx:allow-cut-paper",
+    "printerx:allow-init-printer",
+    "printerx:allow-print-line"
+  ]
+}

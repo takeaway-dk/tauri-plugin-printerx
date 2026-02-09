@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-lcd-show-text"
+description = "Enables the lcd_show_text command without any pre-configured scope."
+commands.allow = ["lcd_show_text"]
+
+[[permission]]
+identifier = "deny-lcd-show-text"
+description = "Denies the lcd_show_text command without any pre-configured scope."
+commands.deny = ["lcd_show_text"]

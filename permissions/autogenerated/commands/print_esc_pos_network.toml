@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-print-esc-pos-network"
+description = "Enables the print_esc_pos_network command without any pre-configured scope."
+commands.allow = ["print_esc_pos_network"]
+
+[[permission]]
+identifier = "deny-print-esc-pos-network"
+description = "Denies the print_esc_pos_network command without any pre-configured scope."
+commands.deny = ["print_esc_pos_network"]

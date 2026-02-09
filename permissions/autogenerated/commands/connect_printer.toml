@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-connect-printer"
+description = "Enables the connect_printer command without any pre-configured scope."
+commands.allow = ["connect_printer"]
+
+[[permission]]
+identifier = "deny-connect-printer"
+description = "Denies the connect_printer command without any pre-configured scope."
+commands.deny = ["connect_printer"]

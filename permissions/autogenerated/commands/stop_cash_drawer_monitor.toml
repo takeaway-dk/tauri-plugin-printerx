@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-stop-cash-drawer-monitor"
+description = "Enables the stop_cash_drawer_monitor command without any pre-configured scope."
+commands.allow = ["stop_cash_drawer_monitor"]
+
+[[permission]]
+identifier = "deny-stop-cash-drawer-monitor"
+description = "Denies the stop_cash_drawer_monitor command without any pre-configured scope."
+commands.deny = ["stop_cash_drawer_monitor"]

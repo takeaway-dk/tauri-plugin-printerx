@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-init-printer"
+description = "Enables the init_printer command without any pre-configured scope."
+commands.allow = ["init_printer"]
+
+[[permission]]
+identifier = "deny-init-printer"
+description = "Denies the init_printer command without any pre-configured scope."
+commands.deny = ["init_printer"]

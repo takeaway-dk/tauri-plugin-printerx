@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-print-line"
+description = "Enables the print_line command without any pre-configured scope."
+commands.allow = ["print_line"]
+
+[[permission]]
+identifier = "deny-print-line"
+description = "Denies the print_line command without any pre-configured scope."
+commands.deny = ["print_line"]
